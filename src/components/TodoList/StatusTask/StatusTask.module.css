@@ -1,3 +1,7 @@
+.statusTaskSettings{
+    margin:0 10px;
+}
+
 .activeStatus{
     display: flex;
     flex-direction: row;

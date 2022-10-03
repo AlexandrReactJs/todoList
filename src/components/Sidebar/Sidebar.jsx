@@ -28,7 +28,7 @@ const Sidebar = () => {
                 <img  src={addIcon} alt="" />
             </div>
         </div>
-        <div>
+        <div className={styles.nav}>
             <h3>Ваши ToDo</h3>
             <div className={styles.todos}>
                 {

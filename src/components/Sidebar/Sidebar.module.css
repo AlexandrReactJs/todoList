@@ -4,6 +4,10 @@
     overflow-x: hidden;
   }
 
+.nav h3{
+  margin:10px 0;
+}
+
 .buttons{
     display: flex;
     flex-direction: row;
