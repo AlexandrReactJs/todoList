@@ -1,0 +1,19 @@
+.container{
+  width: 100%;
+  max-width: 1270px;
+  margin: 0 auto;
+}
+
+.app-wrapper{
+  background-color: #fff;
+  margin: 40px 0;
+  padding: 20px 20px;
+  border-radius: 10px;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 1fr;
+}
+
+
+

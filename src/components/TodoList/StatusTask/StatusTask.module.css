@@ -1,0 +1,56 @@
+.activeStatus{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.activeStatus h3{
+    margin-right: 10px;
+}
+
+.statusTaskItems{
+    
+    margin-left: 100px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 20px rgb(255, 108, 108);
+}
+
+.statusTaskItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.selectedStatus{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.greenDot{
+    width: 12px;
+    height: 12px;
+    background-color: rgb(125, 255, 125);
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.orangeDot{
+    width: 12px;
+    height: 12px;
+    background-color: rgb(251, 202, 110);
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.redDot{
+    width: 12px;
+    height: 12px;
+    background-color: rgb(255, 105, 105);
+    border-radius: 50%;
+    margin-right: 5px;
+}

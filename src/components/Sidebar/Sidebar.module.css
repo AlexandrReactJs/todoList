@@ -1,0 +1,48 @@
+.sideBar{
+    border-right: 1px solid #333;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.buttons img{
+  height: 20px;
+  width: 20px;
+}
+
+.buttons input{
+  height: 20px;
+  border: unset;
+  outline: none;
+  margin-right: 10px;
+  border-bottom: 2px solid rgb(255, 108, 108);
+}
+
+.todos{
+  padding-left: 10px;
+}
+
+.todoItem{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.todoItem p{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.dot{
+  width: 8px;
+  height: 8px;
+  background-color: rgb(91, 255, 129);
+  border-radius: 50%;
+  margin-right: 10px;
+}
